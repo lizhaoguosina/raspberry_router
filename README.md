@@ -2,7 +2,7 @@
 
 ## how to set up a Raspberry Pi as an access point(Router)
 
-## if you can't understand what I had saying, you can use the google translation translate the README.CN.md 
+## if you can't understand what I had saying, you can use the google translation translate the [README.CN.md](https://github.com/lizhaoguosina/raspberry_router/blob/master/README.CN.md) 
 
 ***
 
