@@ -36,22 +36,29 @@ sudo nano /etc/transmission-daemon/settings.json
 "download-dir": "/home/wwwroot"
 ```
 这个指的是你的默认下载目录。当然也可以在后面安装了新的页面控制后更改。需要注意的是，此处设置的文件夹最好是所有用户均有读写权限为宜。更改方式
+```shell
+sudo chmod 766 /home/wwwroot
+```
+
 **(2.**
 ```shell
 "rpc-password":{}
 ```
 这个是你的web控制端的登陆密码，输入明文就好，服务起来的时候会自动加密的
+
 **(3.**
 ```shell
 "rpc-whitelist": "0.0.0.0",
 "rpc-whitelist-enabled": false,
 ```
 这两行建议改成这样的，因为默认是禁止远程访问的
+
 **(4.**
 ```shell
 "rpc-username": ""
 ```
 引号内填写登陆时的用户名
+
 **(5.**
 ```shell
 "rpc-port": 9091,
