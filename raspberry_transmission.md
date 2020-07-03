@@ -31,6 +31,7 @@ sudo nano /etc/transmission-daemon/settings.json
 ```
 
 在配置文件中，重点在于以下几个配置
+
 **(1**
 ```shell
 "download-dir": "/home/wwwroot"
