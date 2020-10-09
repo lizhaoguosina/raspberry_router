@@ -127,6 +127,8 @@ sudo systemctl restart dnsmasq
 ```
 检查两个服务是否已经正常运行。不正常需要寻找问题所在
 
+## 如果hostapd服务启动失败，应首先使得WLAN网卡在可使用状态（此问题常见于桌面版系统中）
+
 ```shell
 sudo systemctl status hostapd
 sudo systemctl status dnsmasq
